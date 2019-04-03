@@ -15,3 +15,8 @@ artist1 = Artist.new({
     })
 
   album1.save()
+
+  binding.pry
+
+
+  nil
