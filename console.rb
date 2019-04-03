@@ -16,6 +16,14 @@ artist1 = Artist.new({
 
   album1.save()
 
+  album2 = Album.new({
+    'album_name' => 'American Slang',
+    'genre' => 'Rock',
+    'artist_id' => "#{artist1.id}"
+    })
+
+  album2.save()
+
   binding.pry
 
 
