@@ -29,4 +29,6 @@ class Album
     results = SqlRunner.run(sql)
     return results.map { |album| Album.new(album)  }
   end
+
+  
 end
