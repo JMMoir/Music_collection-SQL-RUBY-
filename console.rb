@@ -24,6 +24,8 @@ artist1 = Artist.new({
 
   album2.save()
 
+  
+
   binding.pry
 
 
