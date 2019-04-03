@@ -10,6 +10,7 @@ artist1 = Artist.new({
 
   album1 = Album.new({
     'album_name' => 'The 59th Sound',
+    'genre' => 'Rock',
     'artist_id' => "#{artist1.id}"
     })
 
